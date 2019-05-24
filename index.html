@@ -4,48 +4,45 @@
 <title>Calculator challenge</title>
 <meta charset="utf-8">
 <link href="index.css" rel="stylesheet" type="text/css">
-<script src="index.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <div class="calculator">
-        <p id='display'></p>
+        <input class="screen" type ='text' id="display" value ="0">
         <!-- row one -->
         <div class="row">
-        <button class="operator" id="allclear">AC</button>
-        <button class="operator" id="clearentry">CE</button>
-        <button class="operator" id="percentage">%</button>
-        <button class="operator"id="divide">÷</button>
+        <button id="clear" class ="ctrl wide" value="AC">AC</button>
+        <button id="clear" class ="ctrl" value="CE">CE</button>
+        <button id="divide" class="button" value="/">÷</button>
         </div>
         <!-- row two -->
         <div class="row">
-        <button class="number" id="seven">7</button>
-        <button class="number" id="eight">8</button>
-        <button class="number" id="nine">9</button>
-        <button class="operator" id="multiply">x</button>
+        <button id="seven" class="button" value="7">7</button>
+        <button id="eight" class="button" value="8">8</button>
+        <button id="nine" class="button" value="9">9</button>
+        <button id="multiply" class="button" value="*">X</button>
         </div>
         <!-- row three -->
         <div class="row">
-        <button class="number" id="four">4</button>
-        <button class="number" id="five">5</button>
-        <button class="number" id="six">6</button>
-        <button class="operator" data-action="subtract">-</button>
+        <button id="four" class="button" value="4">4</button>
+         <button id="five" class="button" value="5">5</button>
+        <button id="six" class="button" value="6">6</button>
+        <button id="subtract" class="button" value="-">-</button>
         </div>
         <!-- row four -->
         <div class="row">
-        <button class="number" id="one">1</button>
-        <button class="number" id="two">2</button>
-        <button class="number" id="three">3</button>
-        <button class="operator" data-action="add">+</button>
+        <button id="one" class="button" value="1">1</button>
+        <button id="two" class="button" value="2">2</button>
+        <button id="three" class="button" value="3">3</button>
+        <button id="add" class="button" value="+">+</button>
         </div>
         <!-- row five -->
-        <div class="row">
-        <button class="number" id="zero">0</button>
-        <button class="operator" data-action="decimal">.</button>
-        <button class="operator" data-action="equals">=</button>
+        <div class="cal-btn">
+        <button id="zero" class="button" value="0">0</button>
+        <button id="decimal" class="button" value=".">.</button>
+        <button id="equals" class="button wide" value="=">=</button>
         </div>
-    
-    
-    <script type="text/javascript" src="index.js"></script>
+    </div>
+     <script src="index.js"></script>
     </body>
-    </html>
+</html>
